@@ -1,0 +1,12 @@
+Generate Synthetic Images with DCGANs in Keras
+by Coursera Project Network
+About this Course
+In this hands-on project, you will learn about Generative Adversarial Networks (GANs) and you will build and train a Deep Convolutional GAN (DCGAN) with Keras to generate images of fashionable clothes.  We will be using the Keras Sequential API with Tensorflow 2 as the backend.
+
+In our GAN setup,  we want to be able to sample from a complex, high-dimensional training distribution of the Fashion MNIST images. However, there is no direct way to sample from this distribution. The solution is to sample from a simpler distribution, such as Gaussian noise. We want the model to use the power of neural networks to learn a transformation from the simple distribution directly to the training distribution that we care about. The GAN consists of two adversarial players: a discriminator and a generator. We’re going to train the two players jointly in a minimax game theoretic formulation.
+
+This course runs on Coursera's hands-on project platform called Rhyme. On Rhyme, you do projects in a hands-on manner in your browser. You will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project. Everything is already set up directly in your internet browser so you can just focus on learning. For this project, you’ll get instant access to a cloud desktop with Python, Jupyter, and Keras pre-installed.
+
+Notes:
+-  You will be able to access the cloud desktop 5 times. However, you will be able to access instructions videos as many times as you want.
+- This course works best for learners who are based in the North America region. We’re currently working on providing the same experience in other regions.
